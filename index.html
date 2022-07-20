@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-uaum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="grad">
+    
+    
+    <header class="topo">
+        <img class="topo-img" src="/Assets/menu.png" alt="logo">
+
+    </header>
+
+<main class="conteudo">
+
+<div class="titulo">
+    <h1 class="texto-titulo">
+        Gasolina ou Etanol?
+
+
+    </h1>
+</div>
+
+
+
+<div class="texto">   
+
+<h2 class="titulo-cont"></h2>
+<p class="txt-cont">Com a alta dos preços dos combustiveis é dificil saber qual vale mais apena na hora de abastecer</p>
+
+<h2 class="titulo-cont"></h2>
+<p class="txt-cont">Descubra agora qual ira ganhar lugar no seu tanque</p>
+
+
+
+
+<a href="#calc-gas"><button class="op" >Calcular</button></a>
+
+</div>
+
+
+</main>
+
+
+<section id="calc-gas" >
+
+    <div class="inputs">
+        
+        
+        <label for="n1" class="label"><strong>Etanol</strong></label>
+        <input type="number" name="n1" value="n1" id="n1" placeholder="Insira o preço" style="text-align: center">
+        
+        <label for="n2" class="label"><strong>Gasolina</strong></label>
+        <input type="number" name="n2" value="n2" id="n2" placeholder="Insira o preço" style="text-align: center"> 
+       
+        <input type="submit" name="send" value="Calcular" id="button" onclick="gas()" >
+
+        
+        
+
+    </div>
+
+    <div id="res">
+        O resultado é ---> 
+    </div>
+
+
+</section>
+
+
+
+<section id="guia">
+<h1 id="titulos-guia">Porque Escolher entre os combustiveis?</h1>
+
+<p class="paragrafos-guia">Normalmente as pessoas escolhem a Gasolina para abastecer seus carros diariamnte, mas porque escolher o álcool?
+</p>
+<p class="paragrafos-guia">O Etanol é um biocombustivel produzido geralmente a partir da cana-de-açúcar, ele rende menos que os combustiveis a base de petroleo. <br> O preço do etanol é inferior ao da gasolina assim tornando uma opção mais viavel para os bolsos dos brasileiros. </p>
+<h2 id="titulos-guia">Quais carros aceitam o etanol?</h2>
+<p class="paragrafos-guia">Hoje em dia diversos modelos de carros possibilitam alterar de combustivel, esses carros contam com um motor flex que pode ser alimentado com gasolina e etanol ao mesmo tempo sem danos ao motor</p>
+<p class="paragrafos-guia">Os motores flex tendem a render menos do que carros somente a gasolina, eles precisam ter um nivel medio de compressão de combustivel para poder funcionar com ambos os combustiveis </p>
+<h2 id="titulos-guia">Então porque abastecer com etanol?</h2>
+<p class="paragrafos-guia">Ele é mais barato e pesa menos nos bolsos, e para saber qual vale mais apena usar fizemos esse site para você entender com qual deve abastecer</p>
+<h2 id="titulos-guia">Exemplos</h2>
+<p class="paragrafos-guia">Sabemos que o etanol rende 30% menos que a gasolina, ao abastecer com 50 litos de gasolina voce precisaram de 65 litros de etanol para compensar</p>
+<p class="paragrafos-guia">Tome com exemplo o preço de 6.70 para a gasolina e 4,50 para o etanol. com 50L de gas o preço fica 335 reais e com 65 de etanol o preço ficaria em 292,50 reais... Valendo mais apena abastecer com etanol.</p>
+<p class="leia">Leia o sobre o criador...</p>
+</section>
+
+
+<section id="sobre">
+
+    <h1 class="sobre-tt">Sobre o criador!</h1>
+
+<div class="txt">
+  <p> Olá! Meu nome é Victor e sou programador iniciante. Sou estudante de ADS na UP.</p> 
+  <p>Estou treinando programação desenvolvendo pequenos sistemas que solucionam pequenos problema no meu dia a dia. </p>
+  <p>Este site ainda está em desenvolvimento, ele foi pensado para tirar aquela duvida do dia a dia... gasolina ou álcool.</p> <br><br>
+ Meu Instagram:  <a href="https://www.instagram.com/j_uaum/" target="_blank" rel="external"><button style="background: url(Assets/insta\ button.png)" class="op" ></button></a>
+ <br>
+ <br>
+Meu GitHub: <a href="https://github.com/j-uaum?tab=repositories" target="_blank" rel="external"><button style="background: url(Assets/githubbotao.png)" class="op" ></button></a>
+ </div>
+
+<div class="btn">
+  
+</div>
+
+<img class="img-jao" src="/a-2/sobre.jpg" alt="jao">
+
+</section>
+
+<script src="gas.js"></script>
+
+
+
+</body>
+</html>

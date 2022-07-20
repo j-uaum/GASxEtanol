@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.grad{
+
+    
+    font-size: 100%;
+   
+    background: linear-gradient(45deg, #22142b, #003E67, #dba49d);
+    
+    background-size: 300% 300%;
+    animation: cores 15s ease infinite;
+
+}
+
+@keyframes cores{
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: solid antiquewhite 0.3px;
+}
+
+.topo-img{
+    height: 72px;
+
+}
